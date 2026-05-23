@@ -1,0 +1,28 @@
+# Bot working directories — contain progress.json + portal screenshots (PII)
+Bot-*/
+
+# Real dataset files — contain personal birth-registration data
+**/data/
+*.xlsx
+
+# Bot runtime output
+**/logs/
+**/screenshots/
+*.log
+
+# Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Claude Code metadata
+.claude/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Editor settings (uncomment if you don't want to ship these)
+# .vscode/
+# .idea/
